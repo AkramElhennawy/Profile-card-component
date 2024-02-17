@@ -1,0 +1,118 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 37vh, left 48vw top 50vh;
+}
+
+.header-background{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-container{
+    width: 350px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 30px hsla(229, 23%, 23%, 25%)
+}
+
+figure{
+    display: block;
+    position: relative;
+    top: -55px;
+}
+
+.profile-photo{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile{
+    display: block;
+    position: relative;
+    top: -35px;    
+}
+
+.profile .name{
+    color: hsl(229, 23%, 23%);
+}
+
+span{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    padding-left: 5px;
+}
+
+.profile .city{
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(227, 10%, 46%);
+    padding: 10px 0 40px 40px;
+}
+
+hr{
+    width: 348px;
+    border: 0.1px solid hsla(227, 10%, 46%, 30%);
+    display: block;
+    position: relative;
+    top: -60px;  
+}
+
+footer{
+    display: block;
+    position: relative;
+    top: -40px; 
+}
+
+.left, .middle, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.definition{
+     color: hsl(227, 10%, 46%);
+     font-size: 11px;
+     font-weight: 400;
+     padding-top: 8px;
+     letter-spacing: 1.5px;
+}
+
+.attribution{
+    padding-top: 10px;
+}
+
+
+@media (max-width: 567px) {
+    .card-container{
+        width: 375px;
+    }
+
+    .header-background{
+        width: 375px;
+    }
+
+}
+
